@@ -9,20 +9,23 @@ About sudoku_train.py:
 This file is used to train dataset.
 It contains a list of path of images named as 'images' which are used for training.
 If some other images are to be used for training, then list of path must be updated.
-At the end, it saves all the dataset to files.
+At the end, it saves all the data to files.
 
 About sudoku_solve.py :
 This file is used to solve sudoku image.
 It requires input as name of image.
 Both sudoku_solve.py and image must be in same folder otherwise you need to adjust the path.
 Dataset made during training is used.
+Digit recognition is done using KNN model.
 
 About training_images :
 All the images for training are taken fron www.theguardian.com
 
 About test_images :
 All the images for testing are also taken from www.theguardian.com.
-Therefore, the accuracy of sudoku recognition is 100%.
+
+Result :
+As the training set and testing set was from the images of www.theguardian.com, so the accuracy of sudoku recognition is 100%.
 
 Steps for training :
 1) Run the file sudoku_train.py
